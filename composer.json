@@ -1,0 +1,29 @@
+{
+  "name": "amitrev/oidc-discovery",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Atanas Mitrev",
+      "email": "amitrev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "openid",
+    "openid connect discovery",
+    "single sign on"
+  ],
+  "description": "This library extends the 'League OAuth2 Client' library to provide OpenID Connect Discovery support for supporting providers that expose a .well-known configuration endpoint.",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "BashOIDC\\OAuth2\\Client\\": "src/"
+    }
+  },
+  "require": {
+    "league/oauth2-client": "^2.6.1",
+    "firebase/php-jwt": "~5.4.0",
+    "ext-json": "*"
+  }
+}
